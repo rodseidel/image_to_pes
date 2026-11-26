@@ -1,4 +1,4 @@
-# vet_to_pes
+# image_to_pes
 
 Converte uma imagem (JPG ou PNG) em arquivo de bordado **.PES**, pronto para abrir no **Wilcom Embroidery Studio** ou em máquinas Brother/Babylock.
 
@@ -16,8 +16,8 @@ O script vetoriza a imagem e gera os pontos de bordado: underlay duplo, preenchi
 ## Instalação
 
 ```bash
-git clone https://github.com/rodseidel/vet_to_pes.git
-cd vet_to_pes
+git clone https://github.com/rodseidel/image_to_pes.git
+cd image_to_pes
 
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
